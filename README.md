@@ -18,6 +18,8 @@ The original yield data is collected from:
 Further, weather data was acquired for every field from the ERA5 archive. Simulation data was created using the [PyFAO56](https://github.com/kthorp/pyfao56). 
 Further, the data preprocessed and stored in an xarray file. 
 
+The data is stored in a xaaray dataset that can be downloaded [here](https://drive.google.com/file/d/1qcG0-Lnp7osuj6jdfbBKutF9obQynaHU/view?usp=drive_link)
+
 ## Execution example
 * For training run
 ```
@@ -25,6 +27,7 @@ python train.py -s path/to/config/file.yaml
 ```
 
 ## Citation
+```
 @inproceedings{miranda2025informed, 
   author    = {Miranda, M. and Charfuelan, M. and Valdenegro-Toro, M. and Dengel, A.},
   title     = {Informed Learning for Estimating Drought Stress at Fine-Scale Resolution Enables Accurate Yield Prediction},
@@ -32,7 +35,7 @@ python train.py -s path/to/config/file.yaml
   year      = {2025},
   note      = {Accepted for publication}
 }
-
+```
 ## Licence
 
 This program is licenced under Attribution-NonCommercial 4.0 International agreement. 
