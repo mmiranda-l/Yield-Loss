@@ -1,0 +1,28 @@
+
+
+
+output_dir: ./out/example_run
+
+data_path: ./data/data.nc
+
+experiment: 
+  experiment_name: example_run
+  runs: 1 #repetitions
+  kfolds: 2
+
+model_settings:
+  len_target_seq: 10
+  batch_size: 512
+  learning_rate: 0.001
+  epochs: 2
+  model_name: LSTM_Loss
+  n_layers: 1
+  layer_size: 128
+  dropout: 0.3
+  batchnorm: False
+  
+evaluation: 
+  calculate_metrics: True
+  visualization: True
+
+
